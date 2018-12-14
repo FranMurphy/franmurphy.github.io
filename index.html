@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+	  <title>CA2</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="css.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	  
+	  
+	</head>
+	
+	<body style="font-family: sans-serif; font-size: 16px;">
+	
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container-fluid">
+				
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li><a href="#header">Home</a></li>
+						<li><a href="#section1">About Me</a></li>
+						<li><a href="#section2">Education</a></li>
+						<li><a href="#section3">Projects</a></li>
+						<li><a href="#section4">Work Experience</a></li>
+						<li><a href="#section5">Contact</a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</nav>
+		
+		<div id="header" style="position: relative;">
+			<div>
+				<img src="headerimage.jpg" alt="" style="position: relative; width: 100%; height: 300px;">
+				<h1 style="position: absolute; left: 0; top: 75%; width: 100%; text-align: center; font-family: georgian; color: white;">Fran Murphy</h1>
+				<div style="position: absolute; left: 0; top: 35%; width: 100%; text-align: center;">
+					<a href="#" title="Welcome" data-toggle="popover" data-placement="bottom" data-content="Welcome to my Interactive Portfolio Website. Here you will find out all the relevant information based on my Cirriculum vitae including: Contact Information, Education, Skills, Projects and Work Experience. Take a look around by scrolling through and clicking on any navigation buttons or dropdowns.">
+					<img src="profile.jpg" class="img-circle" alt="Cinque Terre" style="display: block; margin-left: auto; margin-right: auto; width: 100px; height: 100px;"></a>
+					<script>
+						$(document).ready(function(){
+						$('[data-toggle="popover"]').popover();   
+						});
+					</script>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="container" style="padding: 0px; width: 100%">
+			
+			<div id="section1" class="container-fluid"  style="background-color: #f7f7f7">
+				
+				<div class="col-sm-12" style="text-align: center;">
+				<h2 style="text-shadow: 2px 2px #b6b4b4;"> Welcome </h2>
+				
+					<div class="col-sm-6">
+					<h4  style="text-shadow: 2px 2px #b6b4b4;"><b>About Me</b></h4>
+					<p>My name is <b>Fran Murphy</b> and I live in <b>Dublin, Ireland.</b> I am currently studying Bachelor’s degree of Science (Honours) in <b>IT Management</b>, in IT Tallaght.</p>
+					<p>During previous work experiences, I have been commended on my ability to motivate others and I always aim to lead by example with high energy and confidence. I have also gained excellent experience in teamwork and communications skills in effective and efficient customer service.</p>
+					</div>
+					
+					<div class="col-sm-6">
+						<h4 style="text-shadow: 2px 2px #b6b4b4;"><b>Hobbies and Interests</b></h4>
+							<div class="col-sm-4"><p><b>Sport</b></p> <img src="football.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 100px; height: 75px;"><p>Strong Interest in Sports, Primarily Football. </p></div>
+							<div class="col-sm-4"><p><b>Academic</b></p> <img src="book.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 100px; height: 75px;"><p>Studying a Degree in Computer Science </p></div>
+							<div class="col-sm-4"><p><b>Other</b></p> <img src="plane.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 100px; height: 75px;"><p>Travel, Music, Latest Technology. </p></div>
+					</div>
+				</div>
+			</div>
+			
+			<div id="section2" class="container-fluid">
+			
+				<h2 style="text-shadow: 2px 2px #b6b4b4; text-align: center;">Education</h2>
+				
+				<p style="text-align: center;"><b>2015-Present: Bachelors Degree of Science (Honours) in IT Management.</b><br>Institute of Technology Tallaght, Dublin 24.Expecting to complete degree in May 2019.</p>
+				<div>
+				<ul style="padding: 0px;">
+					<div class="col-sm-6" style="text-align: center; padding: 10px;">
+						<button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#fourth">Fourth Year</button>
+						<div id="fourth" class="collapse">
+							<table class="table table-striped">
+								<tr>
+									<td>Enterprise Performance Architecture</td>
+									<td>TBD</td>
+								</tr>
+								<tr>
+									<td>Security for Cloud and IoT</td>
+									<td>TBD</td>
+								</tr>
+								<tr>
+									<td>Social Media Analysis</td>
+									<td>TBD</td>
+								</tr>
+								<tr>
+									<td>Private Cloud Architecture</td>
+									<td>TBD</td>
+								</tr>
+								<tr>
+									<td>Interactive Media Design</td>
+									<td>TBD</td>
+								</tr>
+								<tr>
+									<td>Information Management</td>
+									<td>TBD</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					
+					<div class="col-sm-6" style="text-align: center; padding: 10px;">
+						<button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#third">Third Year</button>
+						<div id="third" class="collapse">
+							<table class="table table-striped">
+								<tr>
+									<td>Advanced Databases </td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Cloud Service and Distributed Computing </td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Innovation and Entrepreneurship</td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Networking 3</td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Operating Systems</td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Web Design & Development</td>
+									<td>pass</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					
+					<div class="col-sm-6" style="text-align: center; padding: 10px;">
+						<button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#second">Second Year</button>
+						<div id="second" class="collapse">
+							<table class="table table-striped">
+								<tr>
+									<td>Operating Systems Fundementals</td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Financial Management</td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Software Quality Assurance and Testing</td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Networking 2</td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>IT Scripting and Automation</td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Database Administration</td>
+									<td>pass</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					
+					<div class="col-sm-6" style="text-align: center; padding: 10px;">
+						<button type="button" class="btn btn-info btn-block" data-toggle="collapse" data-target="#first">First Year</button>
+						<div id="first" class="collapse">
+							<table class="table table-striped">
+								<tr>
+									<td>Software Development</td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Database Fundamentals</td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Web Design and user Experience</td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Business Information Systems</td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Computer Architecture</td>
+									<td>pass</td>
+								</tr>
+								<tr>
+									<td>Object Oriented Systems Analysis</td>
+									<td>pass</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					
+				</ul>
+				</div>
+				<div class="col-sm-12">
+				<p style="text-align: center;"><b>Leaving Certificate 2015</b> St Colmcilles Community School, Knocklyon, Dublin 16</p>
+				</div>
+			</div>
+			
+			<div id="section3" class="container-fluid"  style="background-color: #f7f7f7">
+				<h2 style="text-shadow: 2px 2px #b6b4b4; text-align: center;"> Projects </h2>
+				
+				
+				<ul class="nav nav-tabs nav-justified" style="color: white;">
+					<li class="active"><a href="#4yp" data-toggle="tab">Fourth Year Project</a></li>
+					<li><a href="#3yp" data-toggle="tab">Third Year Project</a></li>
+					<li><a href="#1yp" data-toggle="tab">First Year Project</a></li>
+				</ul>
+				
+				<div class="tab-content">
+				  <div class="tab-pane active" id="4yp">
+					<table class="table table-bordered" style="table-layout: fixed;">
+						<th>Grade</th> <th>Topic</th>  <th>Description</th>
+						<tr class="info">
+							<td>TBC</td>
+							<td>Monitoring Systems</td>
+							<td>Investigation in to Monitoring Operations and Performance</td>
+						</tr>
+					</table>
+				  </div>
+				  <div class="tab-pane" id="3yp">
+					<table class="table table-bordered" style="table-layout: fixed;">
+						<th>Grade</th> <th>Topic</th>  <th>Description</th>
+						<tr class="success">
+							<td>B</td> 
+							<td>Internal Business Application (Industry Project)</td> 
+							<td>Design and Develop a PowerApp for Mobile Using SharePoint</td>
+						</tr>
+					</table>
+				  </div>
+				  
+				  <div class="tab-pane" id="1yp">
+					<table class="table table-bordered" style="table-layout: fixed;">
+						<th>Grade</th> <th>Topic</th>  <th>Description</th>
+						<tr class="success">
+							<td>A</td> 
+							<td>Web Development and User Interface.</td> 
+							<td>Design and Create a website using HTML and CSS based on chosen topic (NFL)</td>
+						</tr>
+					</table>
+				  </div>
+				  
+				  
+				  
+				</div>
+				
+				
+				
+			</div>
+			
+			<div id="section4" class="container-fluid" style="padding: 0px">
+				<h2 style="text-shadow: 2px 2px #b6b4b4; text-align: center;"> Work Experience</h2>
+				
+				<div id="projectslide" class="carousel slide" data-ride="carousel" style="padding: 75px; width: 100%; height: 400px;">
+
+					  <ol class="carousel-indicators">
+						<li data-target="#projectslide" data-slide-to="0" class="active"></li>
+						<li data-target="#projectslide" data-slide-to="1"></li>
+						<li data-target="#projectslide" data-slide-to="2"></li>
+					  </ol>
+
+					 <div class="carousel-inner">
+					 
+						<div class="item active">
+							<center><img src="nostra1.jpg" class="img-rounded" style="width: 100%; height: 300px; opacity: 0.75"></center>
+							<div class="carousel-caption" style="position: absolute; left: 0; top: 60%; width: 100%; text-align: center;">
+								<h3>Nostra Systems</h3>
+								<p style="font-size: 12px;">IT Support Analyst 02/2018 - 08/2018</p>
+							</div>
+						</div>
+						
+						<div class="item">
+							<center><img src="supervalu1.jpg" class="img-rounded" style=" width: 100%; height: 300px; opacity: 0.75"></center>
+							<div class="carousel-caption" style="position: absolute; left: 0; top: 60%; width: 100%; text-align: center;">
+								<h3>SuperValu</h3>
+								<p style="font-size: 12px;">Sales Assistant 05/2016 - present</p>
+							</div>
+						</div>
+
+						<div class="item">
+							<center><img src="ygcc1.jpg" class="img-rounded" style=" padding-bottom: 125px; width: 100%; height: 300px; opacity: 0.75"></center>
+							<div class="carousel-caption" style="position: absolute; left: 0; top: 60%; width: 100%; text-align: center;">
+								<h4 style="color: black;">Young Guns Container Crew Vancouver</h4>
+								<p style="color: black; font-size: 12px;">Container Crew Summer 2017</p>
+							</div>
+						</div>
+					</div>
+					
+					<a class="left carousel-control" href="#projectslide" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#projectslide" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right"></span>
+						<span class="sr-only">Next</span>
+					</a>
+					
+					
+				</div>
+				
+			</div>
+		
+			<div id="section5" class="navbar navbar-inverse" style="color: white; text-align: center;">
+			<h2 style="text-align: center;"> Contact Info </h2>
+			<p>Email: francis-murphy@hotmail.com</p> <p> Phone: 0862475323 </p>
+			</div>
+			
+			<footer style="text-align: center;">
+			<a href="#header"> <img src="home.jpg" style="width: 50px; height: 50px; display: block; margin-left: auto; margin-right: auto;" > </a>
+		</footer>
+		
+			<br>
+		
+		
+		</div>
+		
+		
+		
+
+	</body>
+
+	
+</html>
